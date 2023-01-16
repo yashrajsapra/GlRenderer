@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/gtkRender/matRender.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+iostream
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+opencv2/opencv.hpp
+-
+
